@@ -2,5 +2,8 @@
   "main": {
     "fullName": "Eloi Marques",
     "test": true
+  },
+  "cms": {
+    "text1": "Lorem ipsum"
   }
 }
