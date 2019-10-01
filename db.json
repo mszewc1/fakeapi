@@ -1,49 +1,50 @@
 {
-  "GetRates": {
-	"response": {
-		"reason_code":"API1000",
-		"reason_text":"Success",
-		"rates": [{
-			"rate":{
-				"rate_reference":"INIT15",
-				"number_of_instalments":9,
-				"net_rate":2.75,
-				"apr":7.80,
-				"payment_days":30,
-				"deposit_amount":250.00
+	"GetRates": {
+		"response": {
+			"reason_code": "API1000",
+			"reason_text": "Success",
+			"rates": [{
+					"rate": {
+						"rate_reference": "INIT15",
+						"number_of_instalments": 9,
+						"net_rate": 2.75,
+						"apr": 7.80,
+						"payment_days": 30,
+						"deposit_amount": 250.00
+					}
+				},
+				{
+					"rate": {
+						"rate_reference": "INIT16",
+						"number_of_instalments": 9,
+						"net_rate": 2.75,
+						"apr": 7.80,
+						"payment_days": 30,
+						"deposit_amount": 200.00
+					}
+				},
+				{
+					"rate": {
+						"rate_reference": "INIT17",
+						"number_of_instalments": 10,
+						"net_rate": 2.75,
+						"apr": 6.92,
+						"payment_days": 30,
+						"deposit_amount": 0.00
+					}
+				},
+				{
+					"rate": {
+						"rate_reference": "INIT18",
+						"number_of_instalments": 10,
+						"net_rate": 3.00,
+						"apr": 7.55,
+						"payment_days": 30,
+						"deposit_amount": 100.00
+					}
 				}
-			},
-			{
-			"rate":{
-				"rate_reference":"INIT16",
-				"number_of_instalments":9,
-				"net_rate":2.75,
-				"apr":7.80,
-				"payment_days":30,
-				"deposit_amount":200.00
-				}
-			},
-			{
-			"rate":{
-				"rate_reference":"INIT17",
-				"number_of_instalments":10,
-				"net_rate":2.75,
-				"apr":6.92,
-				"payment_days":30,
-				"deposit_amount":0.00
-				}
-			},
-			{
-			"rate":{
-				"rate_reference":"INIT18",
-				"number_of_instalments":10,
-				"net_rate":3.00,
-				"apr":7.55,
-				"payment_days":30,
-				"deposit_amount":100.00
-				}
-			}
-		]}
+			]
+		}
 	}
-  }
+
 }
