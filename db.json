@@ -45,29 +45,27 @@
 				}
 			]
 		}
-	}
+	},
 	"CreateLoan": {
-	"response": {
-		"reason_code": "API1000",
-		"reason_text": "Success",
-		"loan_reference": "5009999999-01",
-		"first_instalment_amount": 35.56,
-		"subsequent_instalment_amount": 55.37,
-		"total_credit_charge": 89.53,
-		"net_rate": 51.44,
-		"gross_rate": 18.5,
-		"loan_premium": 69.72,
-		"apr": 34.05,
-		"total_payable": 87.95,
-		"fees": [
-			{
+		"response": {
+			"reason_code": "API1000",
+			"reason_text": "Success",
+			"loan_reference": "5009999999-01",
+			"first_instalment_amount": 35.56,
+			"subsequent_instalment_amount": 55.37,
+			"total_credit_charge": 89.53,
+			"net_rate": 51.44,
+			"gross_rate": 18.5,
+			"loan_premium": 69.72,
+			"apr": 34.05,
+			"total_payable": 87.95,
+			"fees": [{
 				"fee": {
 					"fee_type": "total",
 					"fee_value": 87.68
 				}
-			}
-		]
+			}]
+		}
 	}
-}
 
 }
